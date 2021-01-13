@@ -1,0 +1,20 @@
+{
+	"name": "system",
+	"description": "Holds all system components for Jillins. This repository is installed by default and cannot be disabled.",
+	"structure-version": 1,
+	"maintainers": "Jillins Developers",
+	"license": "gpl-3.0",
+	"icon": null,
+	"components": [
+		{
+			"name": "Jillins node administration panel",
+			"description": "A simple webinterface to configure the local node.",
+			"systemname": "Jnap",
+			"git-repository": "https://github.com/jillins/component-system-jnap/",
+			"install-target": "https://github.com/jillins/component-system-jnap/archive/main.zip",
+			"maintainers": "Jillins Developers",
+			"license": "gpl-3.0",
+			"icon": null,
+		}
+	]
+}
